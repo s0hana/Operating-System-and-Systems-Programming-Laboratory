@@ -1,0 +1,42 @@
+Number of pages:Reference string:Number of frames:Frames:		   [1, ' ', ' ']
+Reference Bits:    [0, 0, 0]
+Pointer at:	    0
+
+Frames:		   [1, 2, ' ']
+Reference Bits:    [0, 0, 0]
+Pointer at:	    0
+
+Frames:		   [1, 2, 3]
+Reference Bits:    [0, 0, 0]
+Pointer at:	    0
+
+Reference bits for inserting 4:Frames:		   [1, 4, 3]
+Reference Bits:    [0, 1, 1]
+Pointer at:	    2
+
+Reference bits for inserting 5:Frames:		   [1, 4, 5]
+Reference Bits:    [0, 0, 1]
+Pointer at:	    0
+
+Reference bits for inserting 6:Frames:		   [1, 6, 5]
+Reference Bits:    [0, 1, 1]
+Pointer at:	    2
+
+Frames:		   [1, 6, 5]
+Reference Bits:    [1, 1, 1]
+Pointer at:	    2
+
+Reference bits for inserting 2:Frames:		   [1, 6, 2]
+Reference Bits:    [0, 0, 1]
+Pointer at:	    0
+
+---------------------------------------------
+Frame/Page | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 |
+---------- | - | - | - | - | - | - | - | - |
+1          | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+2          |   | 2 | 2 | 4 | 4 | 6 | 6 | 6 |
+3          |   |   | 3 | 3 | 5 | 5 | 5 | 2 |
+---------- | - | - | - | - | - | - | - | - |
+Page Fail  | PF| PF| PF| PF| PF| PF|   | PF|
+---------------------------------------------
+Total page fails = 7

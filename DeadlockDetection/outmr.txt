@@ -1,0 +1,4 @@
+Enter number of processes: Enter number of resource types: Enter total instances of each resource (4 values): Enter available instances of each resource (4 values): Enter Current Allocation Matrix (one row per process):
+P0 allocation: P1 allocation: P2 allocation: Enter Request Matrix (one row per process):
+P0 request: P1 request: P2 request: 
+No deadlock detected.

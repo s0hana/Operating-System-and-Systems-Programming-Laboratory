@@ -1,0 +1,8 @@
+Enter number of processes: 
+Enter information for each process:
+Format example: A R S,T (means A holds R and wants S,T)
+
+Process info: Process info: Process info: Process info: Process info: Process info: Process info: 
+Deadlock detected!
+Cycle found involving these nodes: T -> E -> V -> G -> U -> D -> T
+Processes involved in deadlock: T, E, V, G, U, D, T
